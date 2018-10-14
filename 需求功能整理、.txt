@@ -1,0 +1,9 @@
+UI组建：https://www.youzanyun.com/zanui/vant#/zh-CN/actionsheet
+
+vue-websocket:
+https://blog.csdn.net/niyuelin1990/article/details/78062139
+https://github.com/icebob/vue-websocket
+
+流程图：h06.situantec.cn/xingybc_com_2_4
+http://xingybc.ngrok.situantec.cn/api.html
+http://xingybc.com/api.html

@@ -1,0 +1,143 @@
+.alldashiorder{
+  .all-order_all{
+    width: 100%;
+    padding-top: 20px;
+    background: #f2f2f2;
+    .all-order_all__item{
+      width: 100%;
+      background: white;
+      border-width:  1px 0 1px 0;
+      border-style: solid ;
+      border-color: #d7d7d7;
+      margin-bottom: 20px;
+      .all-order_all__itemP{
+        line-height: 90px;
+        width: 95%;
+        margin: 0 auto;
+        font-size: 28px;
+        .all_all-spanA{
+          padding-left:15%;
+          font-size: 28px;
+        }
+        .all_all-spanB{
+          padding-left: 40px;
+        }
+      }
+      .all-order_all__dashi{
+        position: relative;
+        border-width:  1px 0 1px 0;
+        border-style: solid ;
+        border-color: #d7d7d7;
+        width: 95%;
+        margin: 0 auto;
+        p{
+          padding-left: 20%;
+          line-height: 1.5;
+          font-size: 28px;
+        }
+        .all-order_all__IMG{
+          width: 130px;
+          height: 130px;
+          position: absolute;
+          left:0;
+          top: 20px;
+        }
+        .all-order_all__dasPA{
+          padding-top: 20px;
+          font-size: 30px;
+        }
+        .all-order_all__dasPB{
+          color: #ff7d70;
+          font-size: 32px;
+        }
+        .all-order_all__dasPC{
+          padding-bottom: 20px;
+          font-size: 30px;
+        }
+      }
+    }
+    .all-order_all__dasPD{
+      width: 100%;
+      line-height: 60px;
+      display: block;
+      height: 100px;
+      position: relative;
+      span{
+        border-radius: 15px;
+        padding: 5px 10px;
+        width: 150px;
+        font-size: 28px;
+        a{
+          color: #ffffff;
+        }
+      }
+      .spanC{
+        position: absolute;
+        left: 70%;
+        top: 15px;
+        text-align: center;
+        line-height: 50px;
+        background: #fdaebd;
+        a{
+          display: block;
+          line-height: 50px;
+        }
+      }
+      .spanB{
+        position: absolute;
+        left: 48%;
+        top: 15px;
+        text-align: center;
+        height: 50px;
+        line-height: 100px;
+        a{
+          display: block;
+          line-height: 50px;
+        }
+      }
+      .spanA{
+        position: absolute;
+        left: 20%;
+        top: 15px;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        a{
+          display: block;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+  .alldashiorder-nav{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    background: white;
+    line-height: 120px;
+    text-align: center;
+    z-index: 22;
+    span{
+      display: block;
+      background: white;
+      font-size: 32px;
+      width: 25%;
+    }
+  }
+  .active{
+    position: relative;
+    & :after{
+      width: 100%;
+      content: "";
+      background: pink;
+      height: 4px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
+
+

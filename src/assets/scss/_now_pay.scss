@@ -1,0 +1,99 @@
+.now-pay{
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 110px;
+  background-color: #f6f8fa;
+  .now-pay-P{
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 32px;
+  }
+  .now-pay-submit{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: white;
+    height: 100px;
+    a{
+      display: block;
+      width: 90%;
+      margin-left: 5%;
+      background: pink;
+      line-height: 90px;
+      height: 90%;
+      border-radius: 10px;
+      color: #ffffff;
+      font-size: 36px;
+    }
+  }
+  .now-pay-answer{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    background: #ffffff;
+    .now-answer-dashi{
+      width: 75%;
+      margin-left: 20%;
+      .now-answer-p2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 28px;
+      }
+      .now-answer-p3{
+        border-width: 1px 0 0 0;
+        border-color: #f2f2f2;
+        border-style: solid;
+        line-height: 80px;
+        overflow: hidden;
+        position: relative;
+      }
+      .now-answer-spanA{
+        font-size: 36px;
+      }
+      .now-answer-spanB{
+        color: red;
+        position: absolute;
+        left: 80%;
+        font-size: 32px;
+        top: 0;
+      }
+      .now-answer-spanC{
+        font-size: 28px;
+        color: gray;
+      }
+      .now-answer-spanD{
+        margin-left: 28%;
+        line-height: 80px;
+        font-size: 28px;
+        color: gray;
+      }
+      .now-answer-spanE{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border:2px solid #fdaebd;
+        border-radius: 100%;
+        left: 90%;
+        top: 10px;
+        cursor:pointer;
+        img{
+          width: 50px;
+          height: 50px;
+          margin-bottom: 14px;
+        }
+      }
+    }
+    .now-answer-dashimg{
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+  }
+}

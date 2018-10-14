@@ -1,0 +1,161 @@
+@import "hot-dashi";
+.nav-index{
+  padding-bottom: 80px;
+  .nav-index-header{
+    width: 750px;
+    height: 220px;
+    .van-swipe{
+      width: 750px;
+      height:220px;
+      img{
+        height: 220px;
+        width: 750px;
+      }
+    }
+  }
+  .nav-index-body {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 170px;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    .nav-index-banner{//太极符号定位
+      width:100px;
+      height: 100px;
+      position: absolute;
+      left: 26px;
+      top: 30px;
+    }
+    .updatimg{//更新符号定位
+      width:50px;
+      height: 50px;
+      position: absolute;
+      left: 680px;
+      top: 60px;
+    }
+    .jiantou{
+      width: 25px;
+      height: 40px;
+      left: 690px;
+    }
+    h3{
+      font-size: 48px;
+      padding: 0 0 0 150px;
+      margin: 30px 0 0 0;
+      line-height:1.5;
+      text-align: left;
+      font-weight: 400;
+    }
+    p{
+      font-size: 28px;
+      padding: 0 0 0 150px;
+      margin: 0;
+      line-height:1.5;
+      text-align: left;
+      color:gray;
+    }
+  }
+  .nav-index-search{
+    position: relative;
+    height: 100px;
+    background: #ffffff;
+    border-width: 0 0 1px 0;
+    border-color: #bbbbbb;
+    border-style: solid;
+    input{
+      margin-top: 20px;
+      margin-left: 20px;
+      border-radius: 25px;
+      border: none;
+      height: 60px;
+      width: 640px;
+      padding-left: 70px;
+      font-size: 28px;
+      background-color: #f0f6f6;
+      color: #bbbbbb;
+    }
+    .search{
+      width:72px;
+      height: 60px;
+      position: absolute;
+      left: 26px;
+      top: 22px;
+    }
+  }
+  .search-deatal{
+    margin: 0;
+  }
+  .search-simple{
+   margin-top: 0;
+  }
+  .nav-index-waterfall{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background: #ffffff;
+    margin-bottom: 50px;
+    p{
+      margin: 0;
+      padding: 0;
+      line-height: 2;
+      padding-left: 30px;
+      border-width: 0 0 1px 0;
+      border-color: #bbbbbb;
+      border-style: solid;
+      font-size: 36px;
+    }
+    li{
+      display: block;
+      width: 90%;
+      height: 166px;
+      margin: 0 auto;
+      position: relative;
+      padding-left: 30px;
+      border-width: 0 0 1px 0;
+      border-color: #bbbbbb;
+      border-style: solid;
+      img{
+        width: 116px;
+        height: 116px;
+        position: absolute;
+        left: 13px;
+        top: 24px;
+        border-radius: 10px;
+      }
+      p,h4,h5{
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-align: left;
+        padding-left: 130px;
+        line-height: 1;
+        padding-bottom: 10px;
+        font-weight: 400;
+      }
+      h5{
+        color: darkgray;
+        font-size: 26px;
+      }
+      h4{
+        padding-top: 24px;
+      }
+      .nav-index-span{
+        padding-right: 150px;
+        color: #bbbbbb;
+        font-size: 28px;
+        position: relative;
+        padding-left: 30px;
+        img{
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+

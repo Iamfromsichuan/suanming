@@ -1,0 +1,84 @@
+@import "hot-dashi";
+@import "search";
+.nav-simple{
+  width: 100%;
+  background: #f6f6f8;
+  padding-bottom: 80px;
+  header{
+    width: 100%;
+    background: #ffffff;
+    .nav-simple-header{
+      width: 80%;
+      background: #ffffff;
+      margin-left: 18%;
+      .nav-simple-item{
+        position: relative;
+        width: 100%;
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: #d9d9d9;
+        h4,p{
+          line-height: 2;
+        }
+        h4{
+          font-size: 36px;
+          padding-top: 20px;
+        }
+        p{
+          font-size: 30px;
+          color: #999999;
+          padding-bottom: 20px;
+        }
+        .nav-simple-img{
+          width: 80px;
+          height: 80px;
+          position: absolute;
+          left: -110px;
+          top: 35px;
+        }
+        .routerFilpp{
+          border: 2px solid pink;
+          border-radius: 10px;
+          position: absolute;
+          left: 450px;
+          top: 40px;
+          padding-bottom: 0;
+          a{
+            color: pink;
+            padding:10px 40px;
+          }
+        }
+      }
+    }
+  }
+  .nav-search-main{
+    width: 100%;
+    margin-top: 20px;
+    .van-tab{
+      height: 140px;
+    }
+    .nav-unbo-itemITN{
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      background: #ffffff;
+      .nav-unbo-item{
+        display: inline-block;
+        margin: 0 30px;
+        img{
+          width: 110px;
+          height: 110px;
+        }
+        a{
+          text-align: center;
+        }
+      }
+      .aaa{
+        margin: 0 30px 0 30px;
+      }
+    }
+    .nav-index-search{
+      border: none;
+    }
+  }
+}

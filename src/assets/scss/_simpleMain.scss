@@ -1,0 +1,206 @@
+@import "hot-dashi";
+.AFTER{
+  &:after{
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.2;
+    z-index: 26;
+  }
+}
+.simpleMain{
+   width: 100%;
+   overflow: hidden;
+   background: #f2f2f2;
+  padding-bottom: 100px;
+   .simpleMain-header-img{
+     width: 100%;
+     height: 400px;
+   }
+   .simpleMain-header{
+     background: #ffffff;
+   }
+   .simpleMain-header-shadom{
+     width: 100%;
+     background: black;
+     opacity: 0.5;
+     position: absolute;
+     left: 0;
+     top: 300px;
+     p{
+       line-height: 100px;
+       color: #ffffff;
+       font-size: 32px;
+       padding-left: 10px;
+
+     }
+   }
+   .simpleMain-header-p{
+     width: 90%;
+     margin: 0 auto;
+     font-size: 32px;
+     padding-bottom: 30px;
+     border-width: 0 0 1px 0;
+     border-style: solid;
+     border-color: #f2f2f2;
+   }
+   .simpleMain-header-pA{
+     width: 90%;
+     margin: 0 auto;
+     color: darkgray;
+     font-size: 32px;
+     padding-bottom: 20px;
+     img{
+       padding-top: 20px;
+       height: 30px;
+     }
+     .simpleMain-header-imgA{
+       margin-right: 30%;
+       font-size: 28px;
+     }
+     .simpleMain-header-imgB{
+       font-size: 28px;
+     }
+   }
+   .simpleMain-commit{
+     background: #ffffff;
+   }
+   .simpleMain-commit-p{
+     margin-top: 40px;
+     font-size: 42px;
+     padding-left: 40px;
+     border-width: 0 0 1px 0;
+     border-style: solid;
+     border-color: #f2f2f2;
+     line-height: 100px;
+     background-color: #fff;
+   }
+   .simpleMain-commit-tent{
+     width: 90%;
+     margin: 0 auto;
+     color: gray;
+     position: relative;
+     border-width: 0 0 1px 0;
+     border-style: solid;
+     border-color: #f2f2f2;
+     p{
+       padding-left: 100px;
+       font-size: 32px;
+     };
+     .simpleMain-tent-p{
+       padding-top: 40px;
+       color: #000;
+       margin-bottom: 20px;
+     }
+     .simpleMain-tent-pa{
+       padding-top: 40px;
+
+     }
+     .simpleMain-tent-img{
+       width: 80px;
+       height: 80px;
+       position: absolute;
+       left: 0;
+       top: 40px;
+       border-radius: 100%;
+     }
+   }
+   .simpleMain-tent-pap{
+     width: 100%;
+     text-align: center;
+     line-height: 100px;
+     background: #ffffff;
+     a{
+       color: hotpink;
+       font-size: 32px;
+     }
+   }
+  .simpleMain-tent-paaaa{////
+    width: 100%;
+    padding-left: 20px;
+    line-height: 100px;
+    background: #ffffff;
+  }
+  .simpleMain-submit{
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    p{
+      padding-left: 60px;
+    }
+    .simpleMain-submitA{
+      color: deeppink;
+      padding-top: 30px;
+      font-size: 32px;
+    }
+    .simpleMain-submitB{
+      font-size: 28px;
+      padding-bottom: 30px;
+      img{
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .simpleMain-submitC{
+      width: 450px;
+      background: pink;
+      border-radius: 15px;
+      line-height: 100px;
+      padding: 0;
+      position: absolute;
+      text-align: center;
+      left: 260px;
+      top: 25px;
+      color: #ffffff;
+      font-size: 32px;
+      cursor: pointer;
+    }
+  }
+  .chunk{
+    width: 80%;
+    position: fixed;
+    left: 10%;
+    border-radius: 15px;
+    top: 40%;
+    z-index: 33;
+    display: flex;
+    background: #e8e8e8;
+    flex-wrap: wrap;
+    .chunk1{
+      width: 50%;
+      box-sizing: border-box;
+      border-color: #aeaeae;
+      border-width: 0 1px 0 0 ;
+      border-style: solid;
+      p{
+        line-height: 100px;
+        text-align: center;
+        font-size: 36px;
+        color: #f8b4bd;
+        cursor: pointer;
+      }
+    }
+    .chunk2{
+      width: 100%;
+      box-sizing: border-box;
+      border-color: #aeaeae;
+      border-width: 0 0 1px 0 ;
+      border-style: solid;
+      p{
+        line-height: 150px;
+        text-align: center;
+        font-size: 36px;
+      }
+    }
+    .chun3{
+      border: none;
+    }
+  }
+ }
+

@@ -1,0 +1,172 @@
+.nav-detailed{
+  padding-bottom: 10px;
+  .nav-detailed-header{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    position: relative;
+    ul{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        width: 25%;
+        img{
+          padding-top: 20px;
+          display: block;
+          width: 70px;
+          height: 70px;
+          margin: 0 auto;
+        }
+        p{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          line-height: 1.5;
+          font-size: 28px;
+        }
+      }
+    }
+    .van-swipe__indicators{
+      display: none;
+    }
+    .nav-detailed-p{
+      width: 100%;
+      position: absolute;
+      top:290px;
+      display: flex;
+      justify-content:center;
+      padding: 0;
+      margin: 0;
+      .nav-detailed-span{
+        width: 20px;
+        height: 5px;
+        margin-left: 20px;
+        background:#00b2b6;
+      }
+      .active{
+        background: darkseagreen;
+      }
+    }
+  }
+  .nav-detailed-hotDashi{
+    background-color: #ffffff;
+    margin-top: 30px;
+    width: 100%;
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        width: 25%;
+        .radius{
+          border-radius: 100%;
+          display: block;
+          width: 110px;
+          height: 110px;
+          margin: 0 auto;
+          margin-top: 20px;
+        }
+        p{
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          line-height: 2;
+          font-size: 28px;
+        }
+      }
+    }
+    .nav-hotDashi-p{
+      width: 100%;
+      text-align: center;
+      line-height: 2.5;
+      font-size: 32px;
+    }
+  }
+  .nav-detailed-usercommit{
+    width: 100%;
+    margin-top: 50px;
+    background: #ffffff;
+    margin-bottom: 150px;
+    .nav-usercommit-p{
+      width: 100%;
+      text-align: center;
+      line-height: 3;
+      font-size: 32px;
+    }
+    .user-commit{
+      width: 80%;
+      padding-left: 50px;
+      margin: 30px auto;
+      position: relative;
+      border-width: 0 0 1px 0;
+      border-style: solid;
+      border-color: lightgray;
+      .user-commit-userImg{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left:-10px;
+        top: 5px;
+        border-radius: 100%;
+      }
+      .user-commit-p{
+        font-size: 28px;
+      }
+      .user-commit-paied{
+        position: absolute;
+        left: 380px;
+        top: 14px;
+        font-size: 32px;
+        color: gray;
+      }
+      .spcial{
+        color: darkgray;
+        font-size: 32px;
+        line-height: 1.5;
+      }
+      .user-commit-Consultation{
+        width: 100%;
+        background: #f2f2f2;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .consultation-p1{
+          padding-left: 120px;
+          padding-top: 20px;
+          font-size: 32px;
+        }
+        .consultation-p2{
+          padding-left: 120px;
+          font-size: 32px;
+          color: #bbbbbb;
+        }
+        .consultation-p3{
+          padding-left: 20px;
+          padding-top: 20px;
+          line-height: 2;
+          font-size: 32px;
+        }
+        .user-commit-dashiImg{
+          width:80px;
+          height: 80px;
+          position: absolute;
+          left: 20px;
+          top: 24px;
+          border-radius: 100%;
+        }
+        .user-commit-a{
+          border: 2px solid #fdaebd;
+          color: #fdaebd;
+          padding: 12px 20px;
+          border-radius: 10px;
+          position: absolute;
+          top: 110px;
+          left: 400px;
+          background: #f2f2f2;
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

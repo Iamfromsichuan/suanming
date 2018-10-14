@@ -1,0 +1,101 @@
+.payorder{
+  width: 100%;
+  overflow: hidden;
+  background: #f2f2f2;
+  .payorder-top{
+    width: 100%;
+    height: 100px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: black;
+  }
+  p{
+    font-size: 36px;
+    line-height: 2;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: gray;
+    background: white;
+    padding-left: 30px;
+  }
+  .payorder-body{
+    background: #f2f2f2;
+    padding-top: 20px;
+
+    .payorder-body-pA{
+      margin-bottom: 20px;
+      border-width: 1px 0 1px 0;
+    }
+    .payorder-body-pC{
+      margin-bottom: 20px;
+      border-width: 1px 0 1px 0;
+    }
+    .payorder-body-pB{
+      margin-bottom: 20px;
+      border-width: 1px 0 1px 0;
+    }
+    .payorder-body-spanA{
+      padding-left: 10%;
+    }
+    .payorder-body-spanB{
+      padding-left: 25%;
+    }
+    .payorder-body-spanC{
+      padding-left: 54%;
+      color: pink;
+    }
+  }
+  .payorder-bOM{
+    position: fixed;
+    left: 5%;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    padding-bottom: 10px;
+    p{
+      width: 90%;
+      color: #ffffff;
+      line-height: 100px;
+      padding-left: 0;
+      background: #fdaebd;
+      text-align: center;
+      border-radius: 15px;
+      a{
+        color: white;
+        font-size: 32px;
+      }
+    }
+  }
+  .payorder-body-pD{
+    position: relative;
+    border-width: 1px 0 1px 0;
+    img{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 20px;
+      top: 10px;
+    }
+    .payorder-body-spanE{
+      padding-left: 7%;
+    }
+    .payorder-body-spanD{
+      width: 38px;
+      height: 38px;
+      border-radius: 100%;
+      border: 2px solid pink;
+      padding: 0;
+      position: absolute;
+      left: 92%;
+      top: 15px;
+      cursor: pointer;
+    }
+    .payorder-body-IMG{
+      width: 41px;
+      height: 43px;
+      position: absolute;
+      left: 92%;
+      top: 14px;
+    }
+  }
+}

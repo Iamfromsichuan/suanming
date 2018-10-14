@@ -1,0 +1,26 @@
+.nav-index-search{
+  position: relative;
+  height: 100px;
+  background: #ffffff;
+  border-width: 0 0 1px 0;
+  border-color: #000;
+  border-style: solid;
+  input{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: none;
+    height: 60px;
+    width: 640px;
+    padding-left: 70px;
+    font-size: 28px;
+    background-color: #f0f6f6;
+  }
+  .search{
+    width:72px;
+    height: 60px;
+    position: absolute;
+    left: 26px;
+    top: 22px;
+  }
+}

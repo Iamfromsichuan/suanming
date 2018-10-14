@@ -1,0 +1,91 @@
+@import "index";
+@import "nav_index";
+@import "nav_detailed";
+@import "nav-simple";
+@import "my";
+@import "simpleMain";
+@import "allcommit";
+@import "now_pay";
+@import "info-problem";
+@import "problem-list";
+@import "dashi_list";
+@import "dshi_detailed";
+@import "all_order";
+@import "order_nuber";
+@import "na-my_dashi";
+@import "all_dashi_order";
+@import "all_dashi_qianbao";
+@import "all_dashi_order_qiangda";
+@import "dashiuserchat-bom";
+@import "pay_order";
+@import "submit_order";
+@import "dashi_to_user";
+@import "immediately_ansonwb";
+@import "water";
+@import "Leavingmessage";
+@import "userSetting";
+@import "hot-dashi";
+
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 100%;
+  height: 100%;
+}
+p,h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: black;
+}
+h4{
+  font-weight: 400;
+}
+h5{
+  color: darkgray;
+}
+.index .van-tabbar--fixed .van-tabbar-item__icon img{
+  width: 60px;
+  height: 60px;
+}
+.index .van-tabbar--fixed {
+  height: 120px;
+}
+.all-order_all__dasPA{
+  font-size: 32px;
+}
+.all-order_all__dasPB{
+  font-size: 32px;
+}
+.all-order_all__dasPC{
+  font-size: 32px;
+}
+.all_all-spanB{
+  font-size: 28px;
+}
+.qiangda .all-order_all .all-order_all__item .all-order_all__itemP {
+  font-size: 28px;
+}
+.qiangda .all-order_all .all-order_all__item .all-order_all__itemP{
+  line-height: 80px;
+}
+.nav-my .order-chois .order-pay .order-pay-p{
+  font-size: 32px;
+}
+.van-rate{
+  width: 250px;
+  display: inline-block;
+}
+#AAAAA,#BBBBB{
+  color: #000;
+}

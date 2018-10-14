@@ -1,0 +1,174 @@
+.lala{
+  .dashitouser{
+    position: relative;
+    background: #f2f2f2;
+    padding-bottom: 90px;
+    p{
+      font-size: 32px;
+    }
+    .dashiuserchat-top{
+      width: 100%;
+      padding-top: 40px;
+      .dashiuserchat-top-item{
+        width: 90%;
+        margin: 0 auto;
+        .dashiuserchat-top-chatUser{
+          width: 100%;
+          padding-top: 80px;
+          position: relative;
+          margin-bottom: 40px;
+          .dashiuserchat-top-chatUserContent{
+            padding-top: 40px;
+            margin-left: 30%;
+            width: 70%;
+            background: white;
+            border-radius: 25px;
+            color: white;
+            p{
+              padding-left: 30px;
+              color: #000;
+              line-height: 1.5;
+            }
+          }
+          .chatUser{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            display: block;
+            left: 20px;
+            top: 0;
+            border-radius: 100%;
+          }
+          .userId{
+            width: 20%;
+            display: block;
+            left: 18%;
+            top: 0;
+            position: absolute;
+            text-align: center;
+          }
+        }
+        .dashiuserchat-top-chatKefu{
+          width: 100%;
+          padding-top: 80px;
+          position: relative;
+          margin-bottom: 40px;
+          .dashiuserchat-top-chatUserContent{
+            padding-top: 40px;
+            margin-left: 30%;
+            width: 70%;
+            background: white;
+            border-radius: 25px;
+            color: white;
+            p{
+              padding-left: 30px;
+              line-height: 1.5;
+              color: #000;
+            }
+          }
+          .chatUser{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 0;
+            border-radius: 100%;
+          }
+          .userId{
+            width: 20%;
+            display: block;
+            left: 12%;
+            top: 0;
+            position: absolute;
+            text-align: right;
+          }
+        }
+        .dashiuserchat-top-chatDashi{
+          .dashiuserchat-top-chatUserContent{
+            margin-left: 0;
+            background: #fdaebd;
+            p{
+              color: #ffffff;
+            }
+          }
+          .chatUser{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            display: block;
+            left: 80%;
+            top: 0;
+            border-radius: 100%;
+          }
+          .userId{
+            width: 20%;
+            display: block;
+            left: 58%;
+            top: 0;
+            position: absolute;
+            text-align: right;
+          }
+        }
+      }
+    }
+    .dashitouser-bom{
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      background: darkslategray;
+      input{
+        border: none;
+        list-style: none;
+        width: 70%;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: 15px;
+        padding-left: 20px;
+        font-size: 32px;
+      }
+      button{
+        border: none;
+        list-style: none;
+        width: 20%;
+        height: 80px;
+        margin-top: 10px;
+        border-radius: 15px;
+        margin-left: 10px;
+      }
+    }
+    .chapian{
+      width: 70%;
+      position: fixed;
+      top: 40%;
+      left: 15%;
+      z-index: 22;
+      background: gray;
+      text-align: center;
+      line-height: 150px;
+      .chapiaBBB{
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: #000;
+      }
+      .chapianaa{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+        span{
+          width: 50%;
+          box-sizing: border-box;
+        }
+        .chapianspan{
+          border-width: 0 1px 0 0;
+          border-style: solid;
+          border-color: #000;
+        }
+      }
+    }
+  }
+}

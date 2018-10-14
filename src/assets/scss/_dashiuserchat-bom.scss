@@ -1,0 +1,253 @@
+.dashiuserchat{
+  position: relative;
+  background: #f6f6f8;
+  padding-bottom: 90px;
+  .end{
+    width: 16%;
+    height: 60px;
+    background: pink;
+    color: #ffffff;
+    border: 0;
+    position: fixed;
+    bottom: 100px;
+    left: 80%;
+  }
+  .sure{
+    width: 60%;
+    position: fixed;
+    left: 20%;
+    top: 50%;
+    background-color: pink;
+    display: flex;
+    z-index: 30;
+    flex-wrap: wrap;
+    p{
+      box-sizing: border-box;
+      line-height: 100px;
+    }
+    p.top{
+      width: 100%;
+      height: 100px;
+      line-height: 50px;
+      text-align: center;
+      border-width:1px 1px 0 1px ;
+      border-style: solid;
+      border-color: #000000;
+    }
+    .no{
+      width: 50%;
+      height: 100px;
+      text-align: center;
+      border-width:1px 1px 1px 1px ;
+      border-style: solid;
+      border-color: #000000;
+    }
+    .yes{
+      width: 50%;
+      height: 100px;
+      text-align: center;
+      border-width:1px 1px 1px 0 ;
+      border-style: solid;
+      border-color: #000000;
+    }
+  }
+  .dashiuserchat-submit-chat{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #6a7d8f;
+    display: flex;
+    input{
+      height: 60px;
+      width: 70%;
+      margin: 10px 10px 10px 30px;
+      border-radius: 10px;
+      font-size: 32px;
+      padding-left: 10px;
+    }
+    .button{
+      width: 16%;
+      height: 70px;
+      position: absolute;
+      left: 75%;
+      top: 5px;
+    }
+    button{
+
+    }
+  }
+  p{
+    font-size: 32px;
+  }
+  .dashiuserchat-bom{
+    width: 100%;
+    background: mediumseagreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 22;
+    input{
+      width: 80%;
+      line-height: 80px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      border-radius: 10px;
+      padding-left: 20px;
+      border: none;
+    }
+    img{
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      left: 88%;
+      top: 10px;
+    }
+  }
+  .dashiuserchat-top{
+    width: 100%;
+    padding-top: 40px;
+    .dashiuserchat-top-item{
+      width: 90%;
+      margin: 0 auto;
+      .dashiuserchat-top-chatUser{
+        width: 100%;
+        padding-top: 80px;
+        position: relative;
+        margin-bottom: 40px;
+        .dashiuserchat-top-chatUserContent{
+          padding-top: 40px;
+          width: 70%;
+          background: #fdaebd;
+          border-radius: 25px;
+          color: white;
+          p{
+            padding-left: 30px;
+            line-height: 1.5;
+          }
+        }
+        .dashiuserchat-top-Me{
+          width: 70%;
+          background: white;
+          border-radius: 25px;
+          color: white;
+          padding-top: 40px;
+          margin-right: 30%;
+          p{
+            padding-left: 30px;
+            line-height: 1.5;
+            color: #000;
+          }
+        }
+        .chatUser{
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          display: block;
+          left: 80%;
+          top: 0;
+          border-radius: 100%;
+        }
+        .userId{
+          width: 20%;
+          display: block;
+          left: 58%;
+          top: 0;
+          position: absolute;
+          text-align: right;
+        }
+      }
+      .dashiuserchat-top-chatKefu{
+        width: 100%;
+        padding-top: 80px;
+        position: relative;
+        margin-bottom: 40px;
+        .dashiuserchat-top-chatUserContent{
+          padding-top: 40px;
+          margin-left: 30%;
+          width: 70%;
+          background: white;
+          border-radius: 25px;
+          color: white;
+          p{
+            padding-left: 30px;
+            line-height: 1.5;
+            color: #000;
+          }
+        }
+
+        .chatUser{
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          display: block;
+          left: 0;
+          top: 0;
+          border-radius: 100%;
+        }
+        .userId{
+          width: 20%;
+          display: block;
+          left: 12%;
+          top: 0;
+          position: absolute;
+          text-align: center;
+        }
+        .A{
+          color: #000;
+        }
+        .B{
+          color: #000;
+        }
+      }
+    }
+  }
+  .dashiuserchat-commit{
+    .dashiuserchat-commitP{
+      font-size: 28px;
+    }
+    .dashiuserchat-commit-star{
+      border-width: 1px 0 1px 0;
+      border-style: solid;
+      border-color: #d7d7d7;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      p{
+        line-height: 100px;
+        padding-left: 20px;
+      }
+      img{
+        padding-left: 10px;
+      }
+    }
+  }
+  .bottom{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    input{
+      width: 68%;
+      height: 80px;
+      border-radius: 10px;
+      border:2px solid #fdaebd;
+      font-size: 32px;
+    }
+    button{
+      width: 28%;
+      height: 90px;
+      border: none;
+      position: absolute;
+      line-height: 100px;
+      text-align: center;
+      color: #ffffff;
+      left: 74%;
+      top: 24px;
+      background: #fdaebd;
+      border-radius: 15px;
+    }
+  }
+}

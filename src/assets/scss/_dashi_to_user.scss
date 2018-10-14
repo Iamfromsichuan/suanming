@@ -1,0 +1,144 @@
+.dashiuserchat{
+  position: relative;
+  background: #f2f2f2;
+  padding-bottom: 90px;
+  p{
+    font-size: 32px;
+  }
+  .dashiuserchat-top{
+    width: 100%;
+    padding-top: 40px;
+    .dashiuserchat-top-item{
+      width: 90%;
+      margin: 0 auto;
+      .dashiuserchat-top-chatUser{
+        width: 100%;
+        padding-top: 80px;
+        position: relative;
+        margin-bottom: 40px;
+        .dashiuserchat-top-chatUserContent{
+          margin-left: 3%;
+          width: 70%;
+          background: pink;
+          border-radius: 25px;
+          color: white;
+          padding: 40px 30px ;
+          font-size: 28px;
+          p{
+            padding-left: 30px;
+            color: #000;
+            line-height: 1.5;
+          }
+        }
+        .dashiuserchat-top-Me{
+          margin-left: 25%;
+          width: 70%;
+          background: white;
+          border-radius: 25px;
+          color: #000;
+          padding: 40px 30px ;
+          font-size: 28px;
+          overflow: hidden;
+          p{
+            padding-left: 30px;
+            color: #000;
+            line-height: 1.5;
+          }
+        }
+        .userId{
+          width: 20%;
+          display: block;
+          left: 70%;
+          top: 0;
+          position: absolute;
+          text-align: center;
+        }
+        .chatUser{
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          display: block;
+          left: 85%;
+          top: 0;
+          border-radius: 100%;
+        }
+        .chatMe{
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          display: block;
+          left: 20px;
+          top: 0;
+          border-radius: 100%;
+        }
+        .userMe{
+          width: 20%;
+          display: block;
+          left: 18%;
+          top: 0;
+          position: absolute;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .dashitouser-bom{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: darkslategray;
+    input{
+      border: none;
+      list-style: none;
+      width: 70%;
+      height: 80px;
+      margin-left: 20px;
+      margin-top: 10px;
+      border-radius: 15px;
+      padding-left: 20px;
+      font-size: 32px;
+    }
+    button{
+      border: none;
+      list-style: none;
+      width: 20%;
+      height: 80px;
+      margin-top: 10px;
+      border-radius: 15px;
+      margin-left: 10px;
+    }
+  }
+  .chapian{
+    width: 70%;
+    position: fixed;
+    top: 40%;
+    left: 15%;
+    z-index: 22;
+    background: gray;
+    text-align: center;
+    line-height: 150px;
+    .chapiaBBB{
+      border-width: 0 0 1px 0;
+      border-style: solid;
+      border-color: #000;
+    }
+    .chapianaa{
+      display: flex;
+      width: 100%;
+      text-align: center;
+      line-height: 100px;
+      span{
+        width: 50%;
+        box-sizing: border-box;
+      }
+      .chapianspan{
+        border-width: 0 1px 0 0;
+        border-style: solid;
+        border-color: #000;
+      }
+    }
+  }
+}
+

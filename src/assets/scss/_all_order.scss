@@ -1,0 +1,99 @@
+.all-order{
+  width: 100%;
+  background: #f2f2f2;
+  .all-order-nav{
+    background: white;
+    .all-order-navP{
+      border-color: #d7d7d7;
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      width: 100%;
+      display: flex;
+      text-align: center;
+      line-height: 100px;
+      font-size: 32px;
+      .all-order-navSpan{
+        display: block;
+        width: 25%;
+        justify-content: center;
+      }
+    }
+  }
+  .all-order-item{
+    width: 100%;
+    background-color: #ffffff;
+    .all-order_all{
+      width: 100%;
+      .all-order_all__item{
+        width: 100%;
+        .all-order_all__itemP{
+          line-height: 100px;
+          width: 90%;
+          margin: 0 auto;
+          font-size: 28px;
+          .all_all-spanA{
+            padding-left: 15%;
+            font-size: 28px;
+          }
+          .all_all-spanB{
+            padding-left: 40px;
+          }
+        }
+        .all-order_all__dashi{
+          position: relative;
+          border-width:  1px 0 1px 0;
+          border-style: solid ;
+          border-color: #d7d7d7;
+          width: 100%;
+          p{
+            padding-left: 23%;
+            line-height: 1.5;
+          }
+          .all-order_all__IMG{
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            left:20px;
+            top: 20px;
+          }
+          .all-order_all__dasPA{
+            padding-top: 20px;
+          }
+          .all-order_all__dasPB{
+            color: deeppink;
+          }
+          .all-order_all__dasPC{
+            padding-bottom: 20px;
+          }
+        }
+      }
+      .all-order_all__dasPD{
+        width: 100%;
+        line-height: 100px;
+        display: flex;
+        height: 70px;
+        border-width:  0 0 1px 0;
+        border-style: solid ;
+        border-color: #f2f2f2;
+        justify-content: flex-end !important;
+        span{
+          display: block;
+          border-radius: 15px;
+          padding: 5px 10px;
+          font-size: 32px;
+          width: 25%;
+          text-align: center;
+          height: 60px;
+          line-height: 60px;
+          margin-left: 10px;
+          a{
+            color: #ffffff;
+            display: block;
+            line-height: 60px;
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+}

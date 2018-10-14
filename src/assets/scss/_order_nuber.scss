@@ -1,0 +1,106 @@
+.all-order-item{
+  width: 100%;
+  background-color: #ffffff;
+  .all-order_all{
+    width: 100%;
+    .all-order_all__item{
+      width: 100%;
+      .all-order_all__itemP{
+        line-height: 100px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 28px;
+        .all_all-spanA{
+          padding-left: 26%;
+          font-size: 32px;
+        }
+        .all_all-spanB{
+          padding-left: 40px;
+        }
+      }
+      .all-order_all__dashi{
+        position: relative;
+        border-width:  1px 0 1px 0;
+        border-style: solid ;
+        border-color: gray;
+        width: 100%;
+        p{
+          padding-left: 26%;
+          line-height: 1.5;
+        }
+        .all-order_all__IMG{
+          width: 160px;
+          height: 160px;
+          position: absolute;
+          left:50px;
+          top: 20px;
+        }
+        .all-order_all__dasPA{
+          padding-top: 20px;
+        }
+        .all-order_all__dasPB{
+          color: deeppink;
+        }
+        .all-order_all__dasPC{
+          padding-bottom: 20px;
+        }
+      }
+    }
+    .all-order_all__dasPD{
+      width: 100%;
+      line-height: 100px;
+      display: block;
+      height: 100px;
+      position: relative;
+      border-width:  0 0 1px 0;
+      border-style: solid ;
+      border-color: gray;
+      span{
+        border-radius: 15px;
+        padding: 5px 20px;
+        font-size: 32px;
+        width: 170px;
+        a{
+          color: #ffffff;
+        }
+      }
+      .spanC{
+        position: absolute;
+        left: 75%;
+        top: 15px;
+        text-align: center;
+        height: 60px;
+        line-height: 100px;
+        a{
+          display: block;
+          line-height: 60px;
+        }
+      }
+      .spanB{
+        position: absolute;
+        left: 48%;
+        top: 15px;
+        text-align: center;
+        height: 60px;
+        line-height: 100px;
+        a{
+          display: block;
+          line-height: 60px;
+        }
+      }
+      .spanA{
+        position: absolute;
+        left: 20%;
+        top: 15px;
+        text-align: center;
+        height: 60px;
+        line-height: 100px;
+        a{
+          display: block;
+          line-height: 60px;
+        }
+      }
+    }
+  }
+}

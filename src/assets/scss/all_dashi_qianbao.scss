@@ -1,0 +1,46 @@
+.all-qianbao{
+  width: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+  .all-qianbao-nav{
+    //display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 22;
+  }
+  .alldashiqianbaoall{
+    margin-top: 80px;
+    background: white;
+    border-width: 1px 0 1px 0;
+    border-color: #f2f2f2;
+    border-style: solid;
+    font-size: 32px;
+    p{
+      padding-left: 5%;
+      line-height: 60px;
+    }
+    .alldashiqianbaoall-item{
+      border-width: 1px 0 1px 0;
+      border-color: #f2f2f2;
+      border-style: solid;
+      .alldashiqianbaoall-item-PB{
+        position: relative;
+        .lala{
+          display: block;
+          position: absolute;
+          left: 70%;
+          top: 0;
+          width: 200px;
+          font-size: 40px;
+          text-align: right;
+        }
+      }
+      .alldashiqianbaoall-item-PA{
+        padding-top: 20px;
+      }
+      .alldashiqianbaoall-item-PB{
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
